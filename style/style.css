@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 37px 116px;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: white;
+
+  display: flex;
+}
+/* 
+li {
+  float: left;
+} */
+
+li a {
+  text-align: center;
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+.active {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 1.5px;
+}
+
+.logo {
+  justify-self: flex-start;
+  list-style-type: none;
+}
+
+.hire-me {
+  display: flex;
+  align-items: center;
+  background: #5e3bee;
+  border-radius: 50px;
+  border: none;
+  padding: 5px 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  color: white;
+}
+
+.hire-me img {
+  margin-left: 5px;
+}
