@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200&display=swap");
 
 * {
   font-family: "Poppins", sans-serif;
@@ -9,12 +9,12 @@
   align-items: center;
   justify-content: space-between;
   padding: 37px 116px;
+  background-color: #f9f9fc;
 }
 
 ul {
   list-style-type: none;
   overflow: hidden;
-  background-color: white;
 
   display: flex;
 }
@@ -65,4 +65,91 @@ li a {
 
 .hire-me img {
   margin-left: 5px;
+}
+
+/* stage 2 */
+
+.section-hero {
+  display: flex;
+  background-color: #f9f9fc;
+  padding-left: 117px;
+  padding-right: 115px;
+}
+
+.name-div,
+.profile-div {
+  flex: 1;
+}
+
+.name-div {
+  height: 100%;
+  margin: auto;
+}
+
+.gbemi-odukoya {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+  color: #5e3bee;
+}
+
+.hello-1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #333333;
+}
+
+.contact-me {
+  color: #ffffff;
+  background: #5e3bee;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  width: 204px;
+  height: 70px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  padding-left: 39px;
+}
+
+.contact-me img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.btn-cv {
+  background: transparent;
+  border: none;
+  border-radius: 50px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  padding-left: 39px;
+
+  display: flex;
+  align-items: center;
+}
+
+.btn-cv img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.contact-cv {
+  display: flex;
 }
