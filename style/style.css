@@ -5,11 +5,19 @@
 }
 
 .header {
+  padding: 5px 116px;
+  background-color: #f9f9fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 37px 116px;
-  background-color: #f9f9fc;
+  width: 100%;
+  max-width: 1200px;
 }
 
 ul {
@@ -71,9 +79,16 @@ li a {
 
 .section-hero {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #f9f9fc;
-  padding-left: 117px;
-  padding-right: 115px;
+  padding: 20px 117px;
+}
+
+.section-hero-wrapper {
+  max-width: 1200px;
+  display: flex;
+  width: 100%;
 }
 
 .name-div,
@@ -152,4 +167,40 @@ li a {
 
 .contact-cv {
   display: flex;
+}
+
+/* section experience */
+.section-experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 116px 116px;
+}
+
+.section-experience-wrapper {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.experience h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0.5px;
+  color: #000000;
+  margin-bottom: 0%;
+}
+
+.experience p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: rgba(18, 18, 18, 0.7);
 }
