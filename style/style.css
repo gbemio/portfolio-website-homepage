@@ -311,3 +311,77 @@ li a {
   letter-spacing: 0.5px;
   color: rgba(18, 18, 18, 0.7);
 }
+
+/*section about*/
+.section-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 778px;
+  background-color: #f9f9fc;
+  padding-bottom: 113px;
+}
+
+.section-about-wrapper {
+  max-width: 1200px;
+  display: flex;
+  width: 100%;
+}
+
+.section-about-1,
+.section-about-2 {
+  flex: 1;
+}
+
+.section-about-2 {
+  position: relative;
+}
+
+.web-dev-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+  color: #5e3bee;
+  width: 481px;
+  height: 26px;
+}
+
+.web-dev-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  width: 482px;
+  height: 326px;
+  color: #333333;
+  margin: 0px;
+}
+
+.lorem-about {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  width: 584px;
+  height: 67px;
+  padding-bottom: 30px;
+  color: #333333;
+  padding-bottom: 30px;
+}
+
+.section-about button {
+}
+
+.polygon2 {
+  position: absolute;
+  left: 271px;
+}
+
+.polygon3 {
+  position: absolute;
+  right: 400px;
+  bottom: -10px;
+}
