@@ -408,3 +408,157 @@ li a {
   justify-content: space-between;
   width: 100%;
 }
+
+.section-testimony {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 147px;
+  padding-bottom: 136px;
+}
+
+.colors2 {
+  position: absolute;
+  height: 460px;
+  width: 100%;
+  background-color: #f9f9fc;
+  z-index: 1;
+  top: 0;
+}
+
+.section-testimony-wrapper {
+  max-width: 1200px;
+  align-items: center;
+  width: 100%;
+  z-index: 2;
+}
+
+.testimony-polygon {
+  position: absolute;
+  z-index: -1;
+  left: calc(50% - 45px);
+  top: 115px;
+}
+
+.testimony-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimony-name {
+  height: 26px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+  color: #5e3bee;
+  margin: 0px 0px;
+  padding-bottom: 12px;
+}
+
+.what-clients-say {
+  height: 56px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 56px;
+  letter-spacing: 0.005em;
+  color: #000000;
+  padding: 0px;
+  margin: 0px 0px;
+}
+
+.lorem-testimony {
+  height: 58px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  color: rgba(18, 18, 18, 0.7);
+  margin-bottom: 57px;
+  max-width: 600px;
+  text-align: center;
+}
+
+.testimony-reviews {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review1,
+.review2 {
+  background: #ffffff;
+  box-shadow: 27px 37px 80px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  height: 369px;
+  padding-top: 45px;
+  height: 369px;
+  padding-left: 42px;
+}
+
+.review1 {
+  margin-right: 20px;
+}
+
+.review2 {
+  margin-left: 21px;
+}
+
+.lorem-review1,
+.lorem-review2 {
+  height: 134px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+  color: #000000;
+  padding-right: 58px;
+  display: flex;
+}
+
+.rating-png {
+  display: flex;
+}
+
+.review-downpart {
+  display: flex;
+  padding-top: 27px;
+  max-height: 64px;
+  align-items: center;
+}
+
+.david-css {
+  display: flex;
+  flex-direction: column;
+  padding-left: 17px;
+}
+.david-gueta1,
+.david-gueta2 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  color: #000000;
+  margin: 0px 0px;
+}
+
+.review-web-dev1,
+.review-web-dev2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0px 0px;
+}
+
+.review-frame {
+  display: flex;
+  padding-left: 252px;
+}
