@@ -317,9 +317,9 @@ li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 778px;
   background-color: #f9f9fc;
   padding-bottom: 113px;
+  padding-top: 100px;
 }
 
 .section-about-wrapper {
@@ -384,4 +384,27 @@ li a {
   position: absolute;
   right: 400px;
   bottom: -10px;
+}
+
+/* section clients */
+.section-clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 127px;
+  padding-bottom: 129px;
+  padding-left: 145px;
+  padding-right: 150px;
+}
+
+.section-clients-wrapper {
+  max-width: 1200px;
+  display: flex;
+  width: 100%;
+}
+
+.clients-logo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
